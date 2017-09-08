@@ -1,0 +1,97 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.25em;
+  color: #C72C48;
+}
+
+h3 {
+  line-height: 1.5em;
+  font-weight: 300;
+  font-size: 1.25em;
+}
+
+.container-vertical {
+  height: 100vh;
+  display: table;
+  text-align: center;
+}
+
+@media (max-width: 768px ) {
+  .container-vertical {
+    display: inline-block;
+    margin-top: 3em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.25em;
+  }
+}
+
+.container-scroller {
+  height: 100vh;
+  width: 100%;
+  background-image: url('../images/slider-bg.jpg');
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  background-color: #C72C48;
+  -webkit-animation: animateScroller 100s linear infinite;
+  -moz-animation: animateScroller 100s linear infinite;
+  -o-animation: animateScroller 100s linear infinite;
+  -ms-animation: animateScroller 100s linear infinite;
+  animation: animateScroller 100s linear infinite;
+}
+
+@-webkit-keyframes animateScroller {
+  from { background-position: 0px 8253px }
+  to { background-position: 0px -8253px }
+}
+
+@-moz-keyframes animateScroller {
+  from { background-position: 0px 8253px }
+  to { background-position: 0px -8253px }
+}
+
+@-o-keyframes animateScroller {
+  from { background-position: 0px 8253px }
+  to { background-position: 0px -8253px }
+}
+
+@-ms-keyframes animateScroller {
+  from { background-position: 0px 8253px }
+  to { background-position: 0px -8253px }
+}
+
+@keyframes animateScroller {
+  from { background-position: 0px 8253px }
+  to { background-position: 0px -8253px }
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#logo {
+  height: 15%;
+  margin-bottom: 2em;
+}
+
+#social-links {
+  margin-top: 3em;
+}
+
+#social-links a {
+  font-size: 1.75em;
+  color: #C72C48;
+  margin: 0 15px;
+}
+
+#social-links a:hover {
+  color: black;
+}
