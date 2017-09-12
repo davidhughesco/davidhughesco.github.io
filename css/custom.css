@@ -40,11 +40,11 @@ h3 {
   background-size: 100% auto;
   background-repeat: repeat-y;
   background-color: #C72C48;
-  -webkit-animation: animateScroller 100s linear infinite;
-  -moz-animation: animateScroller 100s linear infinite;
-  -o-animation: animateScroller 100s linear infinite;
-  -ms-animation: animateScroller 100s linear infinite;
-  animation: animateScroller 100s linear infinite;
+  -webkit-animation: animateScroller 150s linear infinite;
+  -moz-animation: animateScroller 150s linear infinite;
+  -o-animation: animateScroller 150s linear infinite;
+  -ms-animation: animateScroller 150s linear infinite;
+  animation: animateScroller 150s linear infinite;
 }
 
 @-webkit-keyframes animateScroller {
