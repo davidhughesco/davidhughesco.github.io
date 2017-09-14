@@ -95,3 +95,14 @@ h3 {
 #social-links a:hover {
   color: black;
 }
+
+/* 404 Page */
+
+h3 a {
+  color: #C72C48;
+}
+
+h3 a:hover {
+  color: black;
+  text-decoration: none;
+}
